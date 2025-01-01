@@ -157,14 +157,16 @@ a {
   text-align: center;
   font-size: 121%;
   line-height: 85%;
+
+  margin-bottom: 4%;
+}
+.text {
   text-transform: uppercase;
   background: linear-gradient(180deg, #ffff0a 0%, #ff6200 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 4%;
 }
-
 .hero-button {
   display: block;
   cursor: pointer;
@@ -264,27 +266,27 @@ a {
     }
   }
 
-  .styled-text {
+  /* .styled-text {
     font-size: 70%;
     top: 0;
     display: block;
     left: 50%;
     transform: translate(-50%);
     margin-top: 4%;
-  }
+  } */
 
-  .logo {
+  /* .logo {
     display: block;
     width: 48%;
     top: 0;
     left: 50%;
     transform: translate(-50%);
     margin-top: 4%;
-  }
+  } */
 
   .link-button {
     width: 100%;
-    top: 8.5%;
+    top: 2.43%;
     left: 0;
     justify-content: center;
     font-size: 28%;
@@ -322,27 +324,37 @@ a {
   .main-text {
     width: 100%;
     left: 0;
-    top: 18.1%;
+    top: 10.22%;
   }
 
-  .first-paragraph {
-    font-size: 48%;
+  /* .first-paragraph {
+    font-size: 62%;
     margin-bottom: 5.1%;
-  }
+  } */
 
   .first-paragraph {
-    font-size: 46%;
-    margin-bottom: 3.93%;
+    font-size: 62%;
+    margin-bottom: 3%;
   }
-
+  /* .second-par_small {
+    color: var(--white-color);
+    font-size: 62%;
+  } */
   .second-paragraph {
-    font-size: 106%;
+    font-size: 61%;
     margin-bottom: 5.78%;
   }
 
-  .bonus_text {
-    font-size: 175%;
+  .hundred {
+    font-size: 440%;
+    line-height: 90%;
   }
+  .bonus {
+    font-size: 330%;
+  }
+  /* .bonus_text {
+    font-size: 175%;
+  } */
 
   .hero-button {
     width: 89.5%;

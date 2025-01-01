@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Основные стили */
+      .second-paragraph {
+        font-size: 39px;
+        margin-bottom: 5.78%;
+        width: 100%; /* 100% ширины для мобильных */
+        text-align: center;
+      }
+
+      .text-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Позволяет обертывать элементы при необходимости */
+      }
+
+      .hundred {
+        font-size: 129px;
+        line-height: 90%;
+      }
+
+      .bonus {
+        font-size: 96px;
+      }
+
+      /* Медиазапрос для маленьких экранов (например, смартфоны) */
+      @media (max-width: 600px) {
+        .second-paragraph {
+          font-size: 30px; /* Уменьшаем шрифт для маленьких экранов */
+        }
+
+        .hundred {
+          font-size: 80px; /* Уменьшаем размер 100% */
+        }
+
+        .bonus {
+          font-size: 70px; /* Уменьшаем размер bonus */
+        }
+      }
+
+      /* Медиазапрос для экранов среднего размера (планшеты) */
+      @media (max-width: 900px) {
+        .second-paragraph {
+          font-size: 36px; /* Уменьшаем шрифт для планшетов */
+        }
+
+        .hundred {
+          font-size: 100px; /* Уменьшаем размер 100% для планшетов */
+        }
+
+        .bonus {
+          font-size: 85px; /* Уменьшаем размер bonus для планшетов */
+        }
+      }
+
+      /* Медиазапрос для больших экранов */
+      @media (min-width: 1200px) {
+        .second-paragraph {
+          font-size: 39px; /* Для больших экранов можно оставить стандартный размер */
+        }
+
+        .hundred {
+          font-size: 129px; /* Стандартный размер 100% для больших экранов */
+        }
+
+        .bonus {
+          font-size: 96px; /* Стандартный размер bonus для больших экранов */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="second-paragraph">
+        <p>
+          <span class="text-wrapper">
+            <span>get</span>
+            <span class="text hundred">100%</span>
+          </span>
+          <span class="text bonus">bonus</span> <br />
+          now
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
