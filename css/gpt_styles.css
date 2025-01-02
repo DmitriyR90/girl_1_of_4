@@ -26,8 +26,7 @@
     rgba(31, 175, 56, 1),
     rgba(96, 214, 105, 1)
   );
-  --text-gradient: linear-gradient(180deg, #ffff0a 0%, #ff6200 161.82%),
-    linear-gradient(90deg, #ffffff 0%, #999999 100%);
+  --text-gradient: linear-gradient(180deg, #ffff0a 0%, #ff6200 161.82%);
   --white-color: #ffffff;
   --black-color: #000000;
   --text-black: #070145;
@@ -121,6 +120,29 @@ a {
   color: var(--white-color);
   top: 18.5%;
   left: 5.5%;
+}
+
+.second-paragraph {
+  text-align: center;
+  font-size: 63%;
+  line-height: 85%;
+  margin-top: -4%;
+  margin-bottom: 4%;
+}
+
+.text {
+  text-transform: uppercase;
+  background: var(--text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .hero-button {
