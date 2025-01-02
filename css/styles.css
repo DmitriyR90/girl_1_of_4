@@ -131,8 +131,8 @@ a {
   line-height: 0.85;
   color: var(--white-color);
 
-  top: 37%;
-  left: 5%;
+  top: 18.5%;
+  left: 5.5%;
 }
 
 .rights {
@@ -143,21 +143,22 @@ a {
   text-align: center;
   font-weight: 500;
   color: var(--white-color);
+  letter-spacing: -0.2px;
 
   top: 94%;
-  left: 18%;
+  left: 16%;
 }
 
 .first-paragraph {
-  font-size: 55%;
-  /* margin-bottom: 2.1%; */
+  font-size: 63%;
 }
 
 .second-paragraph {
   text-align: center;
-  font-size: 121%;
+  font-size: 63%; /* 63px*/
   line-height: 85%;
 
+  margin-top: -4%;
   margin-bottom: 4%;
 }
 .text {
@@ -169,13 +170,30 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* .text {
-  text-transform: uppercase;
-  background: linear-gradient(180deg, #ffff0a 0%, #ff6200 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hundred {
+  font-size: 435%; /* 273px */
+  line-height: 90%;
+  margin-left: -3%;
+  margin-bottom: 2%;
+  padding-top: 5%;
+}
+
+.bonus {
+  font-size: 325%; /* 204px */
+}
+.now {
+  margin-top: 30%;
+  line-height: 130%;
+}
+
 .hero-button {
   display: block;
   cursor: pointer;
@@ -184,11 +202,10 @@ a {
   border-radius: 500px;
   width: 61.8%;
   margin: 0 auto;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 188, 17, 1),
-    rgba(255, 188, 17, 1)
-  );
+
+  background: linear-gradient(180deg, #ffff0a 0%, #ff6200 161.82%),
+    linear-gradient(90deg, #00ff31 0%, #00991e 100%);
+
   border: none;
   cursor: pointer;
   text-decoration: none;
@@ -275,24 +292,6 @@ a {
     }
   }
 
-  /* .styled-text {
-    font-size: 70%;
-    top: 0;
-    display: block;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 4%;
-  } */
-
-  /* .logo {
-    display: block;
-    width: 48%;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 4%;
-  } */
-
   .link-button {
     width: 100%;
     top: 2.43%;
@@ -336,64 +335,23 @@ a {
     top: 10.22%;
   }
 
-  /* .first-paragraph {
-    font-size: 62%;
-    margin-bottom: 5.1%;
-  } */
-
   .first-paragraph {
     font-size: 62%;
-    /* margin-bottom: 3%; */
-  }
-  /* .second-par_small {
-    color: var(--white-color);
-    font-size: 62%;
-  } */
-  /* .second-paragraph {
-    font-size: 61%;
-    margin-bottom: 5.78%;
   }
 
-  .hundred {
-    font-size: 440%;
-    line-height: 90%;
-  }
-  .bonus {
-    font-size: 330%;
-  } */
   .second-paragraph {
     font-size: 60.6%; /* 29px*/
     margin-bottom: 2.2%;
-    width: 100%; /* 100% ширины для мобильных */
+    width: 100%;
     text-align: center;
   }
-
-  .text-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Позволяет обертывать элементы при необходимости */
-  }
-
   .hundred {
     font-size: 444%; /* 129px */
-    line-height: 90%;
-    margin-left: -3%;
-    margin-bottom: 2%;
-    padding-top: 5%;
   }
 
   .bonus {
     font-size: 333%; /* 96px */
   }
-  .now {
-    margin-top: 30%;
-    line-height: 130%;
-  }
-
-  /* .bonus_text {
-    font-size: 175%;
-  } */
 
   .hero-button {
     width: 89.5%;
