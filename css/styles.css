@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-Medium.ttf');
+  src: url('../fonts/Montserrat-Regular.ttf');
 }
 
 html {
@@ -57,16 +57,6 @@ a {
   height: 100%;
   background-color: var(--black-color);
   position: relative;
-}
-
-.logo {
-  position: absolute;
-  width: 20%;
-  left: 18%;
-  top: 22%;
-}
-.logo-svg {
-  width: 100%;
 }
 
 .link-button {
@@ -132,7 +122,7 @@ a {
   color: var(--white-color);
 
   top: 18.5%;
-  left: 5.5%;
+  left: 3%;
 }
 
 .rights {
